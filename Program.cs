@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using DIO.Banco.Enum;
 
 namespace DIO.Banco
 {
     class Program
     {
-        static List<Conta> listConta = new List<Conta>();
+        static List<Conta> listContas = new List<Conta>();
 
         static void Main(string[] args)
         {
@@ -16,19 +17,19 @@ namespace DIO.Banco
                 switch(opcaoUsuario)
                 {
                     case "1":
-                        //Listar();
+                        ListarContas();
                         break;
                     case "2":
-                        //Criar();
+                        InserirConta();
                         break;
                     case "3":
-                        //Transferir();
+                        Transferir();
                         break;
                     case "4":
-                        //Sacar();
+                        Sacar();
                         break;
                     case "5":
-                        //Depositar();
+                        Depositar();
                         break;
                     case "C":
                         Console.Clear();
@@ -68,7 +69,63 @@ namespace DIO.Banco
                                         saldo: entradaSaldo, credito: entradaCredito,
                                         nome: entradaNome);
             
-            listConta.Add(novaConta);
+            listContas.Add(novaConta);
+
+        }
+
+        private static void ListarContas()
+        {
+            Console.WriteLine("Listar contas.");
+
+            if(listContas.Count == 0)
+            {
+                Console.WriteLine("Nenhuma conta cadastrada");
+                return;
+            }
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                Conta conta = listContas[i];
+                Console.WriteLine("#{0} - ", i);
+                Console.WriteLine(conta);
+            }
+
+        }
+
+        private static void Sacar()
+        {
+            Console.WriteLine("Digite o número da conta:  ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual valor a ser sacado?: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorSaque);
+        }
+
+        private static void Depositar()
+        {
+            Console.WriteLine("Digite o número da conta:  ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual valor a ser Depositado?: ");
+            double valorDeposito = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Depositar(valorDeposito);
+        }
+
+        private static void Transferir()
+        {
+            
+            Console.WriteLine("Número da conta origem: ");
+            int indiceOrigem = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Numero da conta destino: ");
+            int indiceDestino = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Valor a ser transferido: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            listContas[indiceOrigem].Transferir(valorTransferencia, listContas[indiceDestino]);
 
         }
 

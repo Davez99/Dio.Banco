@@ -11,3 +11,16 @@ C:\Users\davim\DIO.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.pdb
 C:\Users\davim\DIO.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.dll
 C:\Users\davim\DIO.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.pdb
 C:\Users\davim\DIO.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.genruntimeconfig.cache
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.exe
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.deps.json
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.runtimeconfig.json
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.runtimeconfig.dev.json
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.dll
+C:\Users\daviterres\Dio.Banco\bin\Debug\netcoreapp3.1\DIO.Banco.pdb
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.csprojAssemblyReference.cache
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.AssemblyInfoInputs.cache
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.AssemblyInfo.cs
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.csproj.CoreCompileInputs.cache
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.dll
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.pdb
+C:\Users\daviterres\Dio.Banco\obj\Debug\netcoreapp3.1\DIO.Banco.genruntimeconfig.cache
