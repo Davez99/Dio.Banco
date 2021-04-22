@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\davim\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\davim\\.nuget\\packages"
+      "C:\\Users\\daviterres\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\daviterres\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
